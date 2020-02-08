@@ -1,0 +1,65 @@
+Text.html
+Last week
+Sat 9:23 PM
+
+Omkar Agawane uploaded an item
+HTML
+Text.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		CSS text
+	</title>
+	<style>
+		/*Text-transform*/
+	p.uppercase
+	{
+		text-transform:uppercase;
+	}
+	p.lowercase
+	{
+		text-transform:lowercase;
+	}
+	p.capitalize
+	{
+		text-transform:capitalize;
+	}
+
+	/* Indented text*/
+	p.Indented
+	{
+		text-indent:50px;
+		letter spacing:30px;
+		line-height:70%;
+		word-spacing:30px;
+	}
+	/**/
+	img.top
+	{
+		vertical-align:text-top;
+	}
+
+	img.bottom
+	{
+		vertical-align:text-bottom;
+	}
+
+
+</style>
+</head>
+<body>
+	<h2>Text-transform</h2>
+	<p class="uppercase">Text will be converted to uppercase</p>
+	<p class="lowercase">Text will be converted to lowercase</p>
+	<p class="capitalize">Text will be converted to capitalize</p>
+	<hr>
+	<h2>Indented Text</h2>
+	<p class="Indented">Text will be converted to indented</p>
+	<hr>
+	<h2>Vertical alignment of image inside texts</h2>
+	<p>An <img src="img.jpeg" width="9" height="9"> image with a default alignment.</p>
+	<p>An <img class="top" src="img.jpeg" width="9" height="9"> image with a text-top alignment.</p> 
+	<p>An <img class="bottom" src="img.jpeg" width="9" height="9"> image with a text-bottom alignment.</p> 
+</body>
+</html>

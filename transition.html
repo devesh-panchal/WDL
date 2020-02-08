@@ -1,0 +1,44 @@
+transition.html
+Last week
+Sat 9:23 PM
+
+Omkar Agawane uploaded an item
+HTML
+transition.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>transition</title>
+	<style>
+	 div 
+	 {
+  		width: 100px;
+  		height: 100px;
+  		background: red;
+  		-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+ 		transition: width 2s;
+ 		-webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
+ 		transition: height 2s;
+	 }
+	 
+	 div:hover 
+	 {
+ 		width: 300px;
+ 		height: 300px;
+ 		background: blue;
+ 	 }
+	</style>
+</head>
+<body>
+	<h1>The transition Property</h1>
+
+	<p>Hover over the div element below, to see the transition effect:</p>
+	<div></div>
+
+	<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+	<hr>
+	<br><br>
+	
+</body>
+</html>
